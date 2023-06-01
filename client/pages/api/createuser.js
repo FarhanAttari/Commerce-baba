@@ -5,6 +5,7 @@ import connectDB from "../../../dbConfig/db";
 // ../../DataBass/db
 connectDB()
 export default async (req, res) => {
+  
         try {
                 const { email, password, role } = req.body;
         

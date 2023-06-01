@@ -1,4 +1,4 @@
-import ProductsFeaturedTable from "./Productfeaturedtable";
+import ProductsFeaturedTable from "./productfeaturedtable";
 import { Row, Col, Table, Card, CardTitle, CardBody } from "reactstrap";
 
 const Tables = () => {

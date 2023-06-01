@@ -63,8 +63,7 @@ exports.uploadProductImages = multer({
     console.log(store)
     //   await  cb(  console.log(course.courseName));
     await cb(null, `${store.storeName}/${file.fieldname}-${file.originalname}-${uuid()}`)
-    // const imageUrl = `https://${bucketName}.s3.amazonaws.com/${store.storeName}/${file.fieldname}-${file.originalname}-${uuid()}`;
-    //  await cb(null, imageUrl);
+    
     //   await cb(null, `${store.storeName}/${file.originalname}-${file.originalname}-${uuid()}`)
         }
     })

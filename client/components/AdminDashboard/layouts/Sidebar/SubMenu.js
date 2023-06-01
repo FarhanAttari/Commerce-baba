@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { Collapse, NavItem, NavLink } from "reactstrap";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "next/link";
 // import './style.css'
 const SubMenu = (props) => {
@@ -16,7 +16,7 @@ const SubMenu = (props) => {
         className={classNames({ "menu-open": !collapsed })}
       >
         <NavLink className="dropdown-toggle">
-          {/* <FontAwesomeIcon icon={icon} className="mr-2" /> */}
+          <FontAwesomeIcon icon={icon} className="mr-2" />
           {title}
         </NavLink>
       </NavItem>

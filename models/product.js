@@ -3,6 +3,7 @@ const Schema = mongoose.Schema
 
 const productSchema = new Schema({
     name: { type: String, required: true },
+    images:[String],
     cost: { type: Number, required: true },
     user: { type: Schema.Types.ObjectId, ref: "User" },
     skuID: { type: String, unique: true },
